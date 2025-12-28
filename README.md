@@ -1,21 +1,6 @@
 
 # AJL-TEAM-2 Skin Disorder Detector
 
-
-
-### **👥 Team Members**
-| Ivette Adame-Castro | @bettzv2 | Began data loading, trained ResNet50, contributed to README file |
-
-| Alexia Ventura | @alexiaventura | Tested ResNet, contributed to README file |
-
-| Abdulaziz Khader | @aokhader | Researched data-upscaling, trained ResNet101, contributed to README file |
-
-| Ava Gonick | @avagonick | Researched and performed data preparation, trained ResNet50 and ViT16, contributed to README file |
-
-| Chris Taguba | @ectaguba | Researched models and dataset balancing, conducted data exploration, contributed to README file |
-
----
-
 ## **🎯 Project Highlights**
 
 * Built a Visual Transformer by training the pretrained ViT16 model on the HAM1000 dataset and then fine-tuning on sample data to accurately detect skin cancers on different parts of the body for various skin types.
@@ -192,11 +177,5 @@ Check out [this guide](https://drive.google.com/file/d/1kYKaVNR\_l7Abx2kebs3AdDi
 * What additional datasets or techniques would you explore?
 
 With ResNet in particular, the accuracy scores weren't as high as the ResNet value got larger, so it limited usage of that technique. Additionally, there were some issues with getting specific ResNet values to work based on importing the tools, which also limited which ResNet values could be used for testing. With more time and resources, we would have tried other data techniques to keep seeing if we could improve the accuracy score, or used a combination of models as filters to get a better result.
-
----
-
-## **📄 References & Additional Resources**
-
-* Cite any relevant papers, articles, or tools used in your project
 
 ---
